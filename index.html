@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <script>
+        if (localStorage.getItem("darkmode") === "active") {
+            document.documentElement.classList.add("darkmode");
+        }
+    </script>    
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="darkmode.js" defer></script>
+</head>
+
+<body>
+    <button id="theme-switch">
+        <span>🌙</span>
+        <span>☀️</span>
+    </button>
+    <header>
+        <h1>DarkMode website</h1>
+        <p> 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quisquam quibusdam illo quis. Maxime ducimus quasi hic iusto debitis itaque possimus nihil fuga, ea quod 
+        error molestias praesentium, nesciunt amet a at alias quae dignissimos! Ex at hic sed sunt porro, reprehenderit rem consequuntur laborum quibusdam quas delectus exercitationem. 
+        Ea magni porro consequatur voluptatibus aperiam obcaecati nobis laborum in totam aspernatur, iusto debitis sed assumenda maiores reiciendis consectetur atque temporibus natu
+        </p>
+        <button class="cta-button"> Go Premium</button>
+        <button>More Info</button>
+    </header>
+    <section>
+        <h2>About us</h2>
+        <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi impedit voluptatibus labore quam. Sunt ullam nihil perspiciatis minus consectetur sed deleniti deserunt dolorum, 
+        error molestias praesentium, nesciunt amet a at alias quae dignissimos! Ex at hic sed sunt porro, reprehenderit rem consequuntur laborum quibusdam quas delectus exercitationem. 
+        Ea magni porro consequatur voluptatibus aperiam obcaecati nobis laborum in totam aspernatur, iusto debitis sed assumenda maiores reiciendis consectetur atque temporibus natus 
+        doloribus asperiores iste nostrum quae at quam? Possimus quas iste deleniti!
+        </p>
+        <button>Get in Touch</button>
+    </section>
+</body>
+
+</html>
